@@ -111,12 +111,14 @@ strong{
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 .slider-image.active {
   opacity: 1;
   margin-left: 50%;
  
+  
 }
 
 .carousel-container {
@@ -951,11 +953,31 @@ p {
   animation-timing-function: linear;
   -webkit-animation-timing-function: linear;
   background-size: 100% 100%; /* Opción 1: Ajusta el tamaño de la imagen para cubrir todo el contenedor */
-  /* background-size: 100% 100%; */ /* Opción 2: Ajusta el tamaño de la imagen al 100% del ancho y alto del contenedor */
 }
 
 #fish{
 	top: 120px;
+}
+
+
+.abeja {
+  background-image: url('../assets/Colmena.png');
+  width: 235px;
+  height: 204px;
+  position: absolute;
+  animation: myfirst 24s;
+  -webkit-animation: myfirst 10s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
+  background-size: 100% 100%; /* Opción 1: Ajusta el tamaño de la imagen para cubrir todo el contenedor */
+  
+}
+
+#abeja{
+	top: 70px;
+  margin-right: 50%;
 }
 
 #fish2{
